@@ -82,4 +82,4 @@ jobs:
           push: true
           platforms: linux/arm64
           tags: |
-            ${{ vars.JRLMGITOPSACR_LOGIN_SERVER }}/sverdle:${{ github.sha }}
+            ${{ vars.JRLMGITOPSACR_LOGIN_SERVER }}/backend:${{ github.sha }}
